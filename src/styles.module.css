@@ -1,0 +1,46 @@
+.countWrapper {
+	width: 100vw;
+	height: 100vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+	
+	margin: 0;
+
+	background-color: aliceblue;
+}
+
+.name {
+	color: rgb(93, 93, 93);
+	margin: 0;
+}
+
+.count {
+	margin: 0 0 10px 0;
+	font-size: 5rem;
+	/* font-size: 240px; */
+	/* flex: 0 -1 30px; */
+}
+
+.buttonWrapper {
+	display: flex;
+	gap: 5px;
+}
+
+.button {
+	font-size: 20px;
+	color: aliceblue;
+	width: 120px;
+	height: 50px;
+	border-radius: 15px;
+	box-shadow: 3px 3px 3px 3px;
+}
+.buttonMinus {
+	background-color: rgba(255, 0, 0, 0.743);
+}
+
+.buttonPlus {
+	background-color: rgb(72, 185, 115);
+}
