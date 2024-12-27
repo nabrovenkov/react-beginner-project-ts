@@ -2,7 +2,7 @@ import React, { useReducer, useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import s from './styles.module.css'
-import { Count, CountReducer, increaseCountAC, reducingCountAC } from './model/сount-reducer';
+import { Count, increaseCountAC, reducingCountAC } from './model/сount-reducer';
 import { useDispatch, useSelector } from 'react-redux';
 import { RootState } from './app/store';
 
